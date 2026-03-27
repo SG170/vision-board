@@ -1,8 +1,9 @@
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
 
 @theme {
   --font-sans: 'Outfit', sans-serif;
+  --font-serif: 'Playfair Display', serif;
   --color-sage: #9CAF88;
   --color-sage-hover: #8FA27C;
   --color-cream: #FFFDF7;
@@ -10,6 +11,11 @@
   --color-gray-border: #E5E5E5;
   --color-gray-text: #666666;
   --color-text-dark: #2D2D2D;
+  --color-blush: #Fdf1f0;
+  --color-blush-dark: #F5E6E5;
+  --color-beige: #F5F0E6;
+  --color-glass: rgba(255, 255, 255, 0.65);
+  --color-glass-border: rgba(255, 255, 255, 0.4);
 }
 
 body {
